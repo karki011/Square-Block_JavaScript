@@ -1,0 +1,51 @@
+html{
+    background-color: lightgoldenrodyellow;
+
+}
+
+
+body {
+  display:flex;
+  flex-flow:row wrap;
+  justify-content:center;
+  align-items:center;
+}
+
+button {
+  position:fixed;
+  top: 4px;
+  height: 30px;
+  width: 60px;
+  clear: both;
+
+}
+
+
+.square {
+    position: relative;
+    top: 49px;
+    background-color: lightgray;
+    color: white;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    vertical-align: middle;
+    float: left;
+    margin: 10px;
+    text-align: center;
+    font-size: 3em;
+}
+
+/*.square {
+  position: relative;
+  top: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: lightgray;
+  height: 150px;
+  width: 150px;
+  margin: 4px;
+  text-align: center;
+}*/
+
